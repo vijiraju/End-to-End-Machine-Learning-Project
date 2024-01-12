@@ -1,2 +1,3 @@
-from src.mlProject.config.configuration import main
-main()
+from src.mlProject.logging import logger
+
+logger.info("msg")
